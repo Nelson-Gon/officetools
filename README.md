@@ -21,12 +21,8 @@ git clone https://github.com/Nelson-Gon/officetools.git
 # We will assume it's in the home directory
 # don't run this if otherwise
 cd ~/officetools
-# make script executable
-# change to desired permissions here.
-sudo chmod +x make_pdf.sh
-# can add this to path
-# export path
-# add to .bashrc
+# copy contents to /bin
+cp -rf *.sh  /bin
 
 ```
 
@@ -35,11 +31,12 @@ sudo chmod +x make_pdf.sh
 Say I have a file named test.pptx and need to convert it to pdf, then I will simply call:
 
 ```
-bash ~/officetools/make_pdf.sh test.pptx
+# it is assumed that everything was copied to the binaries directory
 
+make_pdf.sh test.pptx
 # use a wildcard 
 
-bash ~/officetools/make_pdf.sh *.pptx
+make_pdf.sh *.pptx
 ```
 
 That's it. 
