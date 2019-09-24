@@ -22,7 +22,7 @@ git clone https://github.com/Nelson-Gon/officetools.git
 # don't run this if otherwise
 cd ~/officetools
 # copy contents to /bin
-cp -rf *.sh  /bin
+sudo cp -rf *.sh  /bin
 
 ```
 
