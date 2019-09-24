@@ -2,6 +2,6 @@
 
 #LibreOffice 6.0.7.3 00m0(Build:3)
 
-sudo apt install -y && sudo apt upgrade -y
+sudo apt update -y && sudo apt upgrade -y
 sudo apt install -y libreoffice
 
