@@ -59,7 +59,8 @@ To show usage practically, try running:
 ```
 # uses defaults
 # uses test.md in officetools
-make_slides.sh test.md && evince test.pdf
+# provide a theme ie Copenhagen and an input file name ie test.md
+make_slides.sh Copenhagen test.md && evince test.pdf
 
 ```
 
